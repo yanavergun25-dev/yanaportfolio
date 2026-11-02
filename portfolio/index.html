@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Портфоліо графічного дизайнера</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@400;500;700;800&subset=cyrillic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <nav>
+      <a href="#hello">привіт</a>
+      <a href="#about">про себе</a>
+      <a href="#portfolio">портфоліо</a>
+      <a href="#contacts">контакти</a>
+    </nav>
+  </header>
+
+  <section class="title" id="hello">
+    <h1>портфоліо</h1>
+    <p class="script subtitle">графічного дизайнера</p>
+  </section>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="script pink hi">привіт, я</p>
+      <h2>Вергун Яна</h2>
+      <p class="intro">студентка 4 курсу, яка рада втілити твою ідею та створити для тебе крутий дизайн.</p>
+      <p class="script pink also">а ще я просто класна</p>
+    </div>
+    <img class="portrait" src="images/portrait.png" alt="Вергун Яна">
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="script about-title">До речі, я</h2>
+    <ul>
+      <li>— можу годинами шукати той самий відтінок червоного;</li>
+      <li>— люблю, коли дизайн не просто красивий, а щось відчуваєш, коли на нього дивишся;</li>
+      <li>— постійно зберігаю референси, які колись точно знадобляться;</li>
+      <li>— вірю, що навіть найсміливішу ідею можна зробити ще цікавішою.</li>
+    </ul>
+  </section>
+
+  <section class="works" id="portfolio">
+    <h2 class="works-title">Роботи</h2>
+    <p class="script works-sub">упаковки</p>
+
+    <div class="packaging">
+      <img src="images/packaging-1.png" alt="Упаковка Там Там, груша, 150г" class="zoom">
+      <img src="images/packaging-2.png" alt="Упаковка Там Там, груша, 75г" class="zoom">
+      <img src="images/packaging-3.png" alt="Упаковка Там Там, полуниця, 150г" class="zoom">
+      <img src="images/packaging-4.png" alt="Упаковка Там Там, полуниця, 75г" class="zoom">
+    </div>
+
+    <p class="script works-sub posters-sub">плакати</p>
+
+    <div class="posters">
+      <img src="images/poster-1.png" alt="Плакат 1" class="zoom">
+      <img src="images/poster-2.png" alt="Плакат 2" class="zoom">
+      <img src="images/poster-3.png" alt="Плакат 3" class="zoom">
+      <img src="images/poster-4.png" alt="Плакат 4" class="zoom">
+      <img src="images/poster-5.png" alt="Плакат 5" class="zoom">
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+    <h2>контакти</h2>
+    <div class="socials">
+      <a href="https://www.instagram.com/vergunnn?rpxt=d2Q5OHNrZHNnb2Y4&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="images/instagram.png" alt="Instagram">
+      </a>
+      <a href="#" class="no-link" aria-label="Facebook">
+        <img src="images/facebook.png" alt="Facebook">
+      </a>
+      <a href="#" class="no-link" aria-label="TikTok">
+        <img src="images/tiktok.png" alt="TikTok">
+      </a>
+      <a href="https://t.me/vergunnn" target="_blank" rel="noopener" aria-label="Telegram">
+        <img src="images/telegram.png" alt="Telegram">
+      </a>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Закрити">&times;</button>
+    <img src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
